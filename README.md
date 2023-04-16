@@ -4,6 +4,8 @@ Description:
 
 It was very hard homework. I had to deal with many problems while doing it.
 
+![Zdjęcie](https://i.postimg.cc/65RFv5DX/Zrzut-ekranu-2023-04-16-164405.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
