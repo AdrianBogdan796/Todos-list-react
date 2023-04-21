@@ -1,24 +1,24 @@
 .section {
-    margin: 10px 0;
-    box-shadow: 0 0 5px 1px gainsboro;
-    background-color: white;
+  margin: 10px 0;
+  box-shadow: 0 0 5px 1px gainsboro;
+  background-color: white;
 }
 
 .section__body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .section__header {
-    margin: 0;
-    padding: 20px;
-    font-size: 18px;
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .section__title {
-    margin: 0;
-    font-size: 20px;
+  margin: 0;
+  font-size: 20px;
 }

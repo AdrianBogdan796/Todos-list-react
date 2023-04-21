@@ -1,43 +1,42 @@
 .buttons__button {
-    border: none;
-    margin: 0;
-    color: hsl(180, 100%, 25%);
-    transition: 0.5s;
-    cursor: pointer;
-    background: transparent;
+  border: none;
+  margin: 0;
+  color: hsl(180, 100%, 25%);
+  transition: 0.5s;
+  cursor: pointer;
+  background: transparent;
 }
 
 .buttons__button:hover {
-    color: hsl(180, 100%, 35%);
+  color: hsl(180, 100%, 35%);
 }
 
 .buttons__button:active {
-    color: hsl(180, 100%, 40%);
+  color: hsl(180, 100%, 40%);
 }
 
 .buttons__button:disabled {
-    color: gray;
-    cursor: auto;
-}
-
-
-@media(max-width: 767px) {
-    .buttons__button {
-       flex-basis: 100%;
-       margin: 10px;
-    }
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 16px;
+  color: gray;
+  cursor: auto;
 }
 
 @media (max-width: 767px) {
-    .buttons {
-        flex-basis: 100%;
-        margin: 10px;
-    }
+  .buttons__button {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .buttons {
+    flex-basis: 100%;
+    margin: 10px;
+  }
 }
