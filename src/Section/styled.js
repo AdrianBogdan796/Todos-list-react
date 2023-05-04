@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const MainSection = styled.section`
   margin: 10px 0;
-  box-shadow: 0 0 5px 1px gainsboro;
   background-color: white;
 `;
 
-export const Header = styled.header`
+export const SectionHeader = styled.h2`
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -14,18 +13,7 @@ export const Header = styled.header`
   font-weight: bolder;
   margin: 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.25);
-
-  @media (max-width: 767px) {
-    grid-template-columns: 1fr;
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
-`;
-
-export const HeaderTitle = styled.h2`
-  margin: 0px;
-  min-width: 145px;
-`;
-
-export const Content = styled.div`
-  padding: 15px;
-  border: 1px solid #dadada;
 `;
