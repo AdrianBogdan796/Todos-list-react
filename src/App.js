@@ -1,10 +1,10 @@
+import { useState } from "react";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
-import { useState } from "react";
 import { useTasks } from "./useTasks";
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
         title="Dodaj nowe zadanie"
         body={<Form addNewTask={addNewTask} />}
       />
-
       <Section
         title="Lista zadań"
         body={
