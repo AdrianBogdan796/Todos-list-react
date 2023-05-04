@@ -1,13 +1,13 @@
-import { Wrapper, Header, HeaderTitle, Content } from "./styled";
+import { MainSection, SectionHeader } from "./styled";
 
-const Section = ({ title, content, extraHeaderContent }) => (
-  <Wrapper>
-    <Header>
-      <HeaderTitle>{title}</HeaderTitle>
+const Section = ({ title, body, extraHeaderContent }) => (
+  <MainSection>
+    <SectionHeader>
+      {title}
       {extraHeaderContent}
-    </Header>
-    <Content>{content}</Content>
-  </Wrapper>
+    </SectionHeader>
+    {body}
+  </MainSection>
 );
 
 export default Section;
