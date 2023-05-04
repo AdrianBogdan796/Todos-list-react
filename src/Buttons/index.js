@@ -15,4 +15,4 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   </ButtonContainer>
 );
 
-export default Menu;
+export default Buttons;
