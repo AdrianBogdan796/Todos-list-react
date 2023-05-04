@@ -5,18 +5,13 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
     {tasks.length > 0 && (
       <>
         <Button onClick={toggleHideDone}>
-          {hideDone ? "Pokaż " : "Ukryj "}ukończone
+          {hideDone ? "Pokaż" : "Ukryj"} ukończone
         </Button>
-        <Button
-          onClick={setAllDone}
-          className="buttons__button"
-          disabled={tasks.every(({ done }) => done)}
-        >
+        <Button onClick={setAllDone} disabled={tasks.every(({ done }) => done)}>
           Ukończ wszystkie
         </Button>
       </>
     )}
-    ;
   </ButtonContainer>
 );
 

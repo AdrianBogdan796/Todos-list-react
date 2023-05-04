@@ -1,21 +1,31 @@
 import styled from "styled-components";
 
-export const MainSection = styled.section`
+export const Wrapper = styled.section`
   margin: 10px 0;
   box-shadow: 0 0 5px 1px gainsboro;
   background-color: white;
 `;
 
-export const SectionHeader = styled.h2`
-  margin: 0;
-  padding: 20px;
-  font-size: 18px;
-  border-bottom: 1px solid lightgray;
+export const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
 
   @media (max-width: 767px) {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
+`;
+
+export const HeaderTitle = styled.h2`
+  margin: 0px;
+  min-width: 145px;
+`;
+
+export const Content = styled.div`
+  padding: 15px;
+  border: 1px solid #dadada;
 `;
