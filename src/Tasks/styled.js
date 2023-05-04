@@ -66,6 +66,7 @@ export const Button = styled.button`
       }
       &:active {
         background: hsl(350, 80%, 55%);
+        transform: translateY(2px);
       }
     `}
 `;
