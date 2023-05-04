@@ -1,40 +1,32 @@
 import styled from "styled-components";
 
 export const ButtonContainer = styled.div`
-  border: none;
+  display: flex;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 0;
-  color: hsl(180, 100%, 25%);
-  transition: 0.5s;
-  cursor: pointer;
-  background: transparent;
-
-  &:hover {
-    color: hsl(180, 100%, 35%);
-  }
-
-  &:active {
-    color: hsl(180, 100%, 40%);
-  }
-
-  &:disabled {
-    color: gray;
-    cursor: auto;
-  }
-
-  @media (max-width: 767px) {
-    flex-basis: 100%;
-    margin: 10px;
+  @media (max-width: 768px) {
+    justify-content: center;
+    flex-direction: column;
   }
 `;
 
 export const Button = styled.button`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 16px;
-
-  @media (max-width: 767px) {
+  color: rgb(12, 117, 117);
+  border: none;
+  background: none;
+  &:hover {
+    cursor: pointer;
+    color: rgb(16, 153, 153);
+  }
+  &:disabled {
+    color: #6666668f;
+    transition: 0.4s;
+  }
+  @media (max-width: 768px) {
+    align-self: center;
     flex-basis: 100%;
-    margin: 10px;
   }
 `;
