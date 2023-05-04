@@ -45,7 +45,6 @@ export const Button = styled.button`
   margin: 5px;
   flex-shrink: 0;
   background: rgb(26, 122, 32);
-  transition: 1s;
 
   &:hover {
     background: hsl(124, 65%, 40%);
