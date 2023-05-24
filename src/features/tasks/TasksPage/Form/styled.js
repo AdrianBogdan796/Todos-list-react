@@ -10,18 +10,6 @@ export const InputForm = styled.form`
   }
 `;
 
-export const Input = styled.input`
-  width: 300px;
-  margin: 0 10px;
-  border: 1px solid rgba(128, 128, 128, 0.25);
-  padding: 6px;
-
-  @media (max-width: 768px) {
-    margin-bottom: 20px;
-    flex-basis: 100%;
-  }
-`;
-
 export const Button = styled.button`
   cursor: pointer;
   margin: 0 10px;

@@ -17,6 +17,7 @@ export const Button = styled.button`
   color: rgb(12, 117, 117);
   border: none;
   background: none;
+  padding-top: 15px;
   &:hover {
     cursor: pointer;
     color: rgb(16, 153, 153);
