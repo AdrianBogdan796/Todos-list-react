@@ -4,9 +4,7 @@ Description:
 
 It was very hard homework. I had to deal with many problems while doing it.
 
-## Demo
-
-https://deuxex12.github.io/Todos-list-react/
+## [Demo](https://deuxex12.github.io/Todos-list-react/)
 
 ![Zdjęcie](https://i.postimg.cc/65RFv5DX/Zrzut-ekranu-2023-04-16-164405.png)
 
