@@ -4,9 +4,9 @@ Description:
 
 It was very hard homework. I had to deal with many problems while doing it.
 
-## [Demo](https://deuxex12.github.io/Todos-list-react/)
+## [Demo](https://adrianbogdan796.github.io/Todos-list-react/)
 
-![Zdjęcie](https://i.postimg.cc/65RFv5DX/Zrzut-ekranu-2023-04-16-164405.png)
+![Zrzut ekranu 2023-06-05 155346](https://github.com/AdrianBogdan796/Todos-list-react/assets/52881893/2f52678e-cb08-4e3e-8cd5-2a017ce2ceae)
 
 ##Technologies used in the project
 
