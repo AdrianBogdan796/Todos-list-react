@@ -16,7 +16,7 @@ const AuthorPage = () => (
           <p>
             <strong>Uprawiam sporty takie jak</strong> koszykówka i sporadycznie
             chodzę na siłownie. Lubię także oglądać filmy i grać w gry
-            komputerowe."
+            komputerowe.
           </p>
         </>
       }
